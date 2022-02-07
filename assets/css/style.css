@@ -310,7 +310,7 @@ img{
         flex: 1;
     }
     .room-image img{
-        height: 50%;
+        height: 100%;
     }
     .room-text{
         flex: 1;
