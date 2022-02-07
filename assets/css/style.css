@@ -287,17 +287,17 @@ img{
 .room-image:hover img{
     transform: scale(1.1);
 }
-@media (min-width: 900px){
+@media (min-width: 50px){
     .rooms-container{
         display: flex;
         flex-wrap: wrap;
     }
     .room{
         flex: 0 0 calc(50% - 20px);
-        margin: 10px;
+        margin: 5px;
     }
 }
-@media(min-width: 1370px){
+@media(min-width: 50px){
     .rooms-container{
         flex-direction: column;
     }
@@ -310,7 +310,7 @@ img{
         flex: 1;
     }
     .room-image img{
-        height: 100%;
+        height: 50%;
     }
     .room-text{
         flex: 1;
